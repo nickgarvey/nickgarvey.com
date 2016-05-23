@@ -1,0 +1,4 @@
+config.ini
+/dev/www.pid
+/dev/hhvm.log
+/vendor/
