@@ -2,7 +2,7 @@
 
 class :light-button extends :x:element {
   attribute :button;
-  attribute enum {"on", "off"} command @required;
+  attribute enum {"on", "off", "toggle"} command @required;
 
   use XHPHelpers;
 

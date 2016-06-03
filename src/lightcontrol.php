@@ -26,6 +26,8 @@ switch ($method) {
       $controller->on();
     } elseif ($command === "off") {
       $controller->off();
+    } elseif ($command === "toggle") {
+      $controller->toggle();
     } else {
       bad_job();
     }

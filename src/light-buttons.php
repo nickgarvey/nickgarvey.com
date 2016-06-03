@@ -5,6 +5,7 @@ class :light-buttons extends :x:element {
     return <div>
       <light-button command="on" />
       <light-button command="off" />
+      <light-button command="toggle" />
     </div>;
   } 
 }

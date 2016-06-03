@@ -15,6 +15,10 @@ class LightController {
     return $this->doCurl('off');
   }
 
+  public function toggle(): bool {
+    return $this->doCurl('toggle');
+  }
+
   private function doCurl(string $command): bool {
     $url = $this->config->getString('light_url');
     $token = $this->config->getString('light_key');
